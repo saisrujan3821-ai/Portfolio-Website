@@ -103,3 +103,44 @@ textarea{
 
     border: 1px solid gray;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode section {
+    background-color: #222;
+}
+
+.dark-mode p,
+.dark-mode li,
+.dark-mode label,
+.dark-mode h2 {
+    color: white;
+}
+.dark-mode p {
+    color: white;
+}
+
+.dark-mode li {
+    color: white;
+}
+
+.dark-mode label {
+    color: white;
+}
+
+.dark-mode h2 {
+    color: white;
+}
+.dark-mode h2 {
+    color: white;
+}
+
+.dark-mode li {
+    color: white;
+}
+
+.dark-mode label {
+    color: white;
+}
