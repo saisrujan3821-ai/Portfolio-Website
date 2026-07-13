@@ -1,0 +1,125 @@
+/* ===========================
+   GLOBAL VARIABLES
+=========================== */
+html{
+    scroll-behavior:smooth;
+}
+
+:root{
+
+    --primary:#2563eb;
+    --secondary:#1e40af;
+    --accent:#0ea5e9;
+
+    --background:#f4f6f9;
+
+    --card:#ffffff;
+
+    --text:#222;
+
+    --white:#ffffff;
+
+    --radius:12px;
+
+    --shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+/* ===========================
+   BODY
+=========================== */
+
+body{
+
+    font-family:Segoe UI,Arial,sans-serif;
+
+    background:var(--background);
+
+    color:var(--text);
+
+    line-height:1.7;
+
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+/* ===========================
+   DARK MODE
+=========================== */
+
+.dark-mode{
+
+    background:#121212;
+
+    color:white;
+
+}
+
+.dark-mode section{
+
+    background:#1e1e1e;
+
+    color:white;
+
+}
+
+.dark-mode header{
+
+    background:#111827;
+
+}
+
+.dark-mode h2{
+
+    color:#4dabff;
+
+}
+
+.dark-mode input,
+.dark-mode textarea{
+
+    background:#2d2d2d;
+
+    color:white;
+
+    border:1px solid #555;
+
+}
+
+.dark-mode nav a{
+
+    color:white;
+
+}
+
+.dark-mode button{
+
+    background:#2563eb;
+
+}

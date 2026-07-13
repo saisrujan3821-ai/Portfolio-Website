@@ -1,0 +1,291 @@
+/* HEADER */
+
+header{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+/* NAVIGATION */
+
+nav{
+
+    margin-top:20px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#ffd54f;
+
+}
+/* SECTIONS */
+
+section{
+
+    background:white;
+
+    margin:30px auto;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:var(--shadow);
+
+    width:90%;
+
+}
+
+/* IMAGE */
+
+img{
+
+    border-radius:50%;
+
+}
+/* ===========================
+   GRID LAYOUT
+=========================== */
+
+main{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(350px,1fr));
+
+    gap:30px;
+
+    width:90%;
+
+    margin:40px auto;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:12px;
+
+   box-shadow:0 15px 40px rgba(0,0,0,.10); 
+
+    padding:25px;
+
+}
+/* ===========================
+   BUTTONS
+=========================== */
+
+button{
+
+    background:var(--primary);
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+}
+
+button:hover{
+
+    background:var(--secondary);
+
+}
+/* PROFILE IMAGE */
+
+img{
+
+    display:block;
+
+    margin:20px auto;
+
+    width:200px;
+
+    height:200px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:5px solid var(--primary);
+
+}
+
+/* ===========================
+   LIST STYLING
+=========================== */
+
+ul {
+
+    margin-top: 20px;
+
+    padding-left: 25px;
+
+}
+
+li {
+
+    margin-bottom: 10px;
+
+    font-size: 16px;
+
+}
+/* ===========================
+   HEADINGS
+=========================== */
+
+h2{
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+    border-left:5px solid var(--accent);
+
+    padding-left:12px;
+
+}
+/* ===========================
+   CONTACT FORM
+=========================== */
+
+input,
+textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:8px;
+
+    margin-bottom:20px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+input:focus,
+textarea:focus{
+
+    border:2px solid var(--primary);
+
+    outline:none;
+
+}
+footer{
+
+    margin-top:40px;
+
+    text-align:center;
+
+    color:#666;
+
+}
+/* ===========================
+   ADVANCED SELECTORS
+=========================== */
+
+nav a::after{
+
+    content:"";
+
+    display:block;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--accent);
+
+    transition:.3s;
+
+}
+
+nav a:hover::after{
+
+    width:100%;
+
+}
+
+li:first-child{
+
+    font-weight:bold;
+
+}
+
+li:last-child{
+
+    color:var(--primary);
+
+}
+
+section p::first-letter{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    color:var(--primary);
+
+}
+/* ===========================
+   BEM COMPONENTS
+=========================== */
+
+.header{
+
+    background:var(--primary);
+
+}
+
+.header__nav{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+.header__button{
+
+    margin-top:20px;
+
+}
